@@ -1,7 +1,6 @@
 function makeHeader(currentPage) {
   const links = [
     ["index.html", "Home"],
-    ["treehouses.html", "Stays"],
     ["gallery.html", "Gallery"],
     ["location.html", "Location"],
     ["attractions.html", "Attractions"],
@@ -43,9 +42,12 @@ function makeFooter() {
         <div>
           <div class="brand-mark" style="color:var(--ink)">Berlin Woods</div>
           <p style="color:var(--muted);margin:0.5rem 0 0">Unique stays in Berlin, Ohio with direct booking.</p>
+          <a href="https://www.instagram.com/berlinwoodstreehouses/" target="_blank" rel="noopener" style="display:inline-flex;align-items:center;gap:0.4rem;margin-top:0.75rem;color:var(--muted);text-decoration:none;font-size:0.875rem;" aria-label="Berlin Woods on Instagram">
+            <svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><rect x="2" y="2" width="20" height="20" rx="5" ry="5"/><circle cx="12" cy="12" r="4"/><circle cx="17.5" cy="6.5" r="1" fill="currentColor" stroke="none"/></svg>
+            @berlinwoodstreehouses
+          </a>
         </div>
         <ul class="footer-links">
-          <li><a href="treehouses.html">Stays</a></li>
           <li><a href="gallery.html">Gallery</a></li>
           <li><a href="location.html">Location</a></li>
           <li><a href="attractions.html">Attractions</a></li>

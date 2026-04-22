@@ -4,8 +4,7 @@ const heroImages = {
 };
 
 const pageHeroImages = {
-  "treehouses.html": "https://www.amishcountrylodging.com/wp-content/uploads/2019/08/tree-house-5-exterior-slide.jpg",
-  "gallery.html": "https://www.amishcountrylodging.com/wp-content/uploads/2019/08/treehouse-3-exterior-overview.jpg",
+"gallery.html": "https://www.amishcountrylodging.com/wp-content/uploads/2019/08/treehouse-3-exterior-overview.jpg",
   "location.html": "https://www.amishcountrylodging.com/wp-content/uploads/2019/08/tree-house-5-deck-w-view.jpg",
   "attractions.html": "https://www.amishcountrylodging.com/wp-content/uploads/2019/08/horse-and-green-buggy.jpg",
   "collection.html": "https://www.amishcountrylodging.com/wp-content/uploads/2022/05/treehouse-slide.jpg",

@@ -860,6 +860,13 @@ h3 { font-size: clamp(1.25rem, 2vw, 1.8rem); margin-bottom: 0.6rem; }
   flex-direction: column;
   gap: 0.4rem;
   transition: transform 0.3s ease;
+  position: relative;
+}
+
+.attraction-card h3 a::after {
+  content: '';
+  position: absolute;
+  inset: 0;
 }
 
 .attraction-card:hover { transform: translateY(-2px); }
